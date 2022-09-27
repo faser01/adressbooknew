@@ -99,9 +99,9 @@ namespace AddressBook
                         case "2":
                             Console.WriteLine("Введите имя:");
                             string name = Console.ReadLine();
-                            Console.WriteLine("Введите возраст:");
+                            Console.WriteLine("\"Введите телефон: \"");
                             string number1 = (Console.ReadLine());
-                            Console.WriteLine("Введите возраст:");
+                            Console.WriteLine("Введите второй номер телефона:");
                             string number2 = (Console.ReadLine());
                             command = new SQLiteCommand(connection)
                             {
